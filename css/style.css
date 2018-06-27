@@ -1,4 +1,4 @@
-#contenedor {
+#contenedor1 {
   background-color: #3E3F41;
   align-content: center;
 }
@@ -54,6 +54,8 @@ height: 15%;
 
 #menu {
   background-color: #3E3F41;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 
 #btn-menu {
@@ -71,6 +73,7 @@ height: 15%;
   font-size: 20px; 
   align-content: center;
   margin-top: 5%;
+  margin-bottom: 0%;
 }
 
 .options {
@@ -81,6 +84,30 @@ height: 15%;
 .dropdown-item {
   height: 50px;
   margin-top: 3%;
+}
+
+#contenedor2 {
+  background-color: #dcdce4;
+  height: 100%;
+}
+
+#contenedor-botones {
+  margin-top: 20%;
+  text-align: center;
+  align-content: center;
+}
+
+.btn-options {
+  background-color: #ECAB11;
+  color: #FAFAFA;
+  border: none;
+  margin-top:2%;
+  margin-bottom:2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding:2%;
+  width: 70%;
+  
 }
 
 /*font-family: 'Francois One', sans-serif;
