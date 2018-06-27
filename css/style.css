@@ -52,6 +52,37 @@ height: 15%;
   color: #ECAB11;
 }
 
+#menu {
+  background-color: #3E3F41;
+}
+
+#btn-menu {
+  background-color: #3E3F41;
+  margin-right: 0%;
+}
+
+/*.dropdown-toggle {
+  display:none;
+}*/
+
+#titulo {
+  color: #FAFAFA;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px; 
+  align-content: center;
+  margin-top: 5%;
+}
+
+.options {
+  color:  #ECAB11;
+  height: 20%;
+}
+
+.dropdown-item {
+  height: 50px;
+  margin-top: 3%;
+}
+
 /*font-family: 'Francois One', sans-serif;
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-family: 'Roboto Slab', serif;*/
