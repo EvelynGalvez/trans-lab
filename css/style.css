@@ -1,1 +1,57 @@
-/* YeyeYeee código aquí */
+#contenedor {
+  background-color: #3E3F41;
+  align-content: center;
+}
+
+#contenedorimg1 {
+  text-align: center;
+  margin-top: 25%;
+}
+
+#img1 {
+width: 35%;
+height: auto;
+}
+
+h1 {
+font-family: 'Barlow Semi Condensed', sans-serif bold;
+color: #ECAB11;
+font-size: 65px ;
+}
+
+#formulario {
+  margin-left: 10%;
+  margin-top: 16%;
+}
+
+.login {
+width: 90%;
+height: 15%;
+}
+
+#btn-submit {
+  margin-right:10%;
+  background-color: #ECAB11;
+}
+
+#forget-password {
+  font-family: 'Roboto Slab', serif;
+  color: #FAFAFA;
+  margin-top: 3%;
+}
+
+#no-login {
+  margin-top: 10%;
+  color: #FAFAFA;
+  position: relative;
+  bottom: 0%;
+  margin-bottom: 0%;
+}
+
+#registrate {
+  color: #ECAB11;
+}
+
+/*font-family: 'Francois One', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;*/
