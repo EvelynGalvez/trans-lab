@@ -92,7 +92,8 @@ height: 15%;
 }
 
 #contenedor-botones {
-  margin-top: 20%;
+  margin-top: 63%;
+  margin-bottom: 63%;
   text-align: center;
   align-content: center;
 }
@@ -101,11 +102,9 @@ height: 15%;
   background-color: #ECAB11;
   color: #FAFAFA;
   border: none;
-  margin-top:2%;
-  margin-bottom:2%;
-  margin-right: 2%;
-  margin-left: 2%;
-  padding:2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
   width: 70%;
   
 }
