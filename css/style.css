@@ -19,6 +19,11 @@ color: #ECAB11;
 font-size: 65px ;
 }
 
+h2 {
+  font-size: 20px;
+  padding-bottom: 30%;
+}
+
 #formulario {
   margin-left: 10%;
   margin-top: 16%;
@@ -89,6 +94,7 @@ height: 15%;
 #contenedor2 {
   background-color: #dcdce4;
   height: 100%;
+  display: none;
 }
 
 #contenedor-botones {
