@@ -1,6 +1,7 @@
 #contenedor1 {
   background-color: #3E3F41;
   align-content: center;
+  display: block;
 }
 
 #contenedorimg1 {
@@ -34,7 +35,7 @@ width: 90%;
 height: 15%;
 }
 
-#btn-submit {
+#btn-inicio {
   margin-right:10%;
   background-color: #ECAB11;
 }
@@ -67,10 +68,6 @@ height: 15%;
   background-color: #3E3F41;
   margin-right: 0%;
 }
-
-/*.dropdown-toggle {
-  display:none;
-}*/
 
 #titulo {
   color: #FAFAFA;

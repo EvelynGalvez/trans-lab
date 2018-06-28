@@ -11,4 +11,20 @@ if(validar_email(email)) {
   } else {
     alert("El email NO es correcto");
   }*/
+window.onload = () => {
+  let password = document.getElementById('exampleInputPassword1').value;
+  const submit = document.getElementById('btn-inicio');
+
+  submit.addEventListener('click', () => {
+    
+  if (password.length > 8 && typeof password !== 'number') {
+    alert ('Debes ingresar una contraseña numérica de hasta 8 caracteres');
+  } else {
+    document.getElementById('contenedor1').style.display = 'none';
+    document.getElementById('contenedor2').style.display = 'block';
+  }
+});
+
+
+}
 
