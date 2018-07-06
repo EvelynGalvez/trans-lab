@@ -17,10 +17,10 @@
         <h1>TRANS-LAB</h1>
           <form id="formulario">
             <div class="form-group">
-              <input type="email" class="form-control login" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control login" id="email" placeholder="Enter email" required="required">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control login" id="exampleInputPassword1" placeholder="Password">
+              <input type="password" class="form-control login" id="password" placeholder="Password">
             </div>
               <button id="btn-inicio" type="button" class="btn btn-primary login">INICIAR SESIÓN</button>
           </form>
@@ -35,9 +35,9 @@
 
 
   <div id="contenedor2" class="container-fluid">
-    <div id="menu" class="row">
-      <div id="menu" class="col-4 dropdown">
-        <button id="btn-menu" class="btn btn-secondary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i>
+    <div class="row menu">
+      <div class="col-4 dropdown menu">
+        <button class="btn btn-secondary btn-menu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i>
             
         </button>
         
@@ -59,12 +59,68 @@
         <button type="button" class="col-12 btn-options btn btn-primary btn-lg">CALCULAR TARIFA</button>
       </div>
       <div class="row">
-        <button type="button" class="col-12 btn-options btn btn-primary btn-lg">PERFIL</button>
+        <button id="perfil" type="button" class="col-12 btn-options btn btn-primary btn-lg">PERFIL</button>
       </div>
       <div class="row">
         <button type="button" class="col-12 btn-options btn btn-primary btn-lg">PREGUNTAS FRECUENTES</button>
       </div>
     </div>
+  </div>
+
+
+  <div id="contenedor3" class="container-fluid">
+    <div class="row menu">
+      <div class="col-4 dropdown menu">
+        <button class="btn btn-secondary btn-menu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i>
+        </button>          
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#"><i class="fas fa-dollar-sign options"></i>  Ver Saldo</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-th options"></i> Calcular tarifa</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-user options"></i> Perfil</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-question options"></i> Preguntas frecuentes</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-home options"></i> Home</a>
+        </div>
+      </div>
+    <div class="col-4"><p id="titulo"> TRANS-LAB</p></div>      
+    </div>
+    <div class="row">
+      <div class="col-12 contenedorimgperfil">
+        <div class="col-12">
+          <img id="imgperfil" src="docs/person.png" class="rounded mx-auto d-block" alt="imgperfil">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="contenedoremail" class="col-12">
+        <input class="form-control" type="text" placeholder="Aquí irá el e-mail del usuario..." readonly>
+      </div>
+    </div>
+    <div class="row">
+      <div id="contenedorinputbip" class="col-12">
+        <input class="form-control" type="number" placeholder="Ingresa n° de tarjeta">
+      </div>
+    </div>
+    <div id="contenedorbotontarjetas" class="col-12">
+      <div class="row">
+        <button type="button" class="col-12 btn-options btn btn-primary btn-lg">AGREGAR TARJETA</button>
+      </div>
+    </div>
+    <div id="contenedortarjetas" class="col-12">
+      <div class="row">
+        <input class="form-control tarjeta" type="number" placeholder="Aquí irá tarjeta agregada por usuario" readonly>
+      </div>
+      <div class="row">
+        <input class="form-control tarjeta" type="number" placeholder="Aquí irá tarjeta agregada por usuario" readonly>
+      </div>
+      <div class="row">
+        <input class="form-control tarjeta" type="number" placeholder="Aquí irá tarjeta agregada por usuario" readonly>
+      </div>
+      <div class="row">
+        <input class="form-control tarjeta" type="number" placeholder="Aquí irá tarjeta agregada por usuario" readonly>
+      </div>
+    </div>
+    
+
   </div>
 
     

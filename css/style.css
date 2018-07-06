@@ -58,13 +58,13 @@ height: 15%;
   color: #ECAB11;
 }
 
-#menu {
+.menu {
   background-color: #3E3F41;
   padding: 0px;
   margin-bottom: 0px;
 }
 
-#btn-menu {
+.btn-menu {
   background-color: #3E3F41;
   margin-right: 0%;
 }
@@ -112,6 +112,41 @@ height: 15%;
   
 }
 
+#contenedor3 {
+  background-color: #dcdce4;
+  height: 100%;
+  display: none;
+}
+
+.contenedorimgperfil {
+  background-color: #ECAB11;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+#imgperfil {
+  width: 70%;
+  height: auto;
+}
+
+#contenedoremail {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#contenedorinputbip {
+  padding-bottom: 5%;
+}
+
+.tarjeta {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#contenedortarjetas {
+  
+}
 /*font-family: 'Francois One', sans-serif;
 font-family: 'Barlow Semi Condensed', sans-serif;
 font-family: 'Roboto Slab', serif;*/

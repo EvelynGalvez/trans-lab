@@ -1,30 +1,49 @@
-/*const email = document.getElementById('exampleInputEmail1').value;
 
-const validarEmail = (email) => {
-  let regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-  return regex.test(email) ? true : false;
+
+ // let email = document.getElementById('email').value;
+
+ function isValidEmail() { 
+  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(); 
 }
 
- 
-if(validar_email(email)) {
-    alert("El email es correcto");
-  } else {
-    alert("El email NO es correcto");
-  }*/
-window.onload = () => {
-  let password = document.getElementById('exampleInputPassword1').value;
-  const submit = document.getElementById('btn-inicio');
 
-  submit.addEventListener('click', () => {
-    
-  if (password.length > 8 && typeof password !== 'number') {
-    alert ('Debes ingresar una contraseña numérica de hasta 8 caracteres');
+const validarPassword = (password) => {
+  if (typeof password === 'number') {
+    console.log('contraseña es numérica');
+    let passwordString = password.toString();
+    if (passwordString.length < 8) {
+      console.log('contraseña válida');
+  return true;
+    }
   } else {
+    console.log('contraseña inválida');
+  return false;
+  }
+}
+
+
+  const inicio = document.getElementById('btn-inicio');
+
+  inicio.addEventListener('click', () => {
+    const email = document.getElementById('email').value;
+    console.log(email);
+    
+    /*const password = document.getElementById('password').value;
+    if (isValidEmail(email) && validarPassword(password)) {*/
     document.getElementById('contenedor1').style.display = 'none';
     document.getElementById('contenedor2').style.display = 'block';
-  }
-});
+    //}
+  });
+
+  const perfil = document.getElementById('perfil');
+
+  perfil.addEventListener('click', () => {
+    console.log('funciona');
+    document.getElementById('contenedor2').style.display = 'none';
+    document.getElementById('contenedor3').style.display = 'block'; 
+  })
 
 
-}
+
+
 
